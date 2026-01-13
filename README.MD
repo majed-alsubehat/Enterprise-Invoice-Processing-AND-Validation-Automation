@@ -8,14 +8,16 @@ It simulates a real-world invoice processing workflow without using any sensitiv
 The automation reads invoice files from Excel, extracts invoice details, validates vendors and financial rules, applies decision logic, stores results, and generates a final summary report.
 
 
-🎯 Project Objectives
+🎯 Project Objectives:
+
 -Simulate real enterprise invoice processing scenarios
 -Apply structured RPA design (modular workflows)
 -Practice data extraction, validation, and decision logic
 -Generate structured outputs and summary reports
 
 
-🗂 Project Structure
+🗂 Project Structure:
+
 Enterprise-Invoice-Processing/
 │
 ├── Invoices_Input/            # Sample invoice Excel files
@@ -36,7 +38,8 @@ Enterprise-Invoice-Processing/
 └── README.md
 
 
-🔄 Process Flow
+🔄 Process Flow:
+
 1.Read Vendor Master data
 2.Loop through invoice files (For Each File in Folder)
 3.Read invoice data from Excel
@@ -53,20 +56,23 @@ Enterprise-Invoice-Processing/
 8.Generate final summary report
 
 
-📊 Validation Rules
+📊 Validation Rules:
+
 -Amount ≥ 0
 -Total must equal Amount + Tax
 -Vendor must exist in Vendor Master
 -Vendor status must be Approved
 
-📈 Final Report
+📈 Final Report:
+
 The automation generates a summary report including:
 -Number of approved invoices
 -Number of rejected invoices
 -Number of invoices requiring review
 
 
-🛠 Technologies Used
+🛠 Technologies Used:
+
 -UiPath Studio
 -Excel Workbook Activities
 -DataTables
