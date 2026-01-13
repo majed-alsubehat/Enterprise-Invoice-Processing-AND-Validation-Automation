@@ -9,12 +9,10 @@ The automation reads invoice files from Excel, extracts invoice details, validat
 
 
 🎯 Project Objectives
-
 -Simulate real enterprise invoice processing scenarios
 -Apply structured RPA design (modular workflows)
 -Practice data extraction, validation, and decision logic
 -Generate structured outputs and summary reports
--Follow best practices suitable for GitHub portfolios
 
 
 🗂 Project Structure
@@ -39,7 +37,6 @@ Enterprise-Invoice-Processing/
 
 
 🔄 Process Flow
-
 1.Read Vendor Master data
 2.Loop through invoice files (For Each File in Folder)
 3.Read invoice data from Excel
@@ -57,14 +54,12 @@ Enterprise-Invoice-Processing/
 
 
 📊 Validation Rules
-
 -Amount ≥ 0
 -Total must equal Amount + Tax
 -Vendor must exist in Vendor Master
 -Vendor status must be Approved
 
 📈 Final Report
-
 The automation generates a summary report including:
 -Number of approved invoices
 -Number of rejected invoices
